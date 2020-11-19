@@ -3,6 +3,7 @@
     padding:0;
     box-sizing:border-box ;
 }
+
 body {
     /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
@@ -59,3 +60,33 @@ header nav ul li {
       footer a{
         color: #024e76;
       }
+       section {
+           padding: 60 px;
+        }
+        /* hero styling  */
+        .hero{
+            
+                background-image: url("/Users/samuel/Desktop/projects/run-buddy/assets/images/hero4runbuddy.jpg");
+                height: 600px;
+                background-size:cover;
+                background-position: center;
+             }
+        .hero-form{
+            color: #024e76;
+            background-color:#fce138;
+            padding: 20px;
+            width: 500px;
+            border-style: solid;
+            border-width: 3px;
+            border-color: #024e76;
+            
+            
+            
+        }
+
+             /* end of hero styling  */
+
+
+      
+
+    
