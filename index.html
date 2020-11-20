@@ -47,15 +47,15 @@
                 <p>
                     Fill out this form and one of our trainers will schedule a consult
                 </p>
-                
+                <br/>
         <!--  add for element   -->
         <form> 
             <label for = "name"> Enter Full name</label>
-            <input type="text" placeholder="Your Name" name= "name" id="name"/>
-            <label for = "email"> Enter Full name</label>
-            <input type="email" placeholder=" Email Address" name= "email" id="email"/>
-            <label for = "phone"> Enter Full name</label>
-            <input type="tel" placeholder="Phone Number" name= "phone" id="phone"/>
+            <input type="text" placeholder="Your Name" name= "name" id="name" class="form-input">
+            <label for = "email"> Enter email address</label>
+            <input type="email" placeholder=" Email Address" name= "email" class="form-input">
+            <label for = "phone"> Enter a telephone Number</label>
+            <input type="tel" placeholder="Phone Number" name= "phone" id="phone"class="form-input">
             <p>
                 Have you worked out with a trainer before?
                 <input type="radio" name="Trainer-confirm" id="trainer-yes"/>
@@ -64,6 +64,7 @@
                 <label for="trainer-no">No</label>
 
             </p>
+            <br/>
             <p>
                 <label for="checkbox">
                     I acknoledge that I am atleast 18 years of age.
@@ -71,6 +72,7 @@
                 </label>
                 <input type="checkbox" name="age-confirm" id= "checkbox"/>
             </p>
+            <br/>
             <button type="submit">
                 Get running!
             </button>
