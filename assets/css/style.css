@@ -72,6 +72,14 @@ header nav ul li {
                 background-position: center;
                 position:relative;
              }
+             /* secondary page hero */
+        .hero-secondary {
+            margin: 0 20p 40px 20px;
+            background-color: black;
+            font-size: 20px;
+            color: red;
+            
+  }
         .hero-form{
             color: #024e76;
             background-color:#fce138;
@@ -259,5 +267,6 @@ header nav ul li {
               }
               
               /* REACH OUT STYLES END */
+              
 
     
