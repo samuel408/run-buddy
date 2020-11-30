@@ -157,9 +157,7 @@ font-size: 1.55vw;
              /* end of hero styling  */
 
              /*  what we do styling  */
-        .intro{
-            text-align: center;
-        }
+       
         
             .intro p {
                 line-height: 1.7;
@@ -167,6 +165,7 @@ font-size: 1.55vw;
                 width: 80%;
                 font-size: 20px;
                 margin: 0 auto;
+                text-align:center;
 
               }
               /* end of what we do section styling 
@@ -174,19 +173,26 @@ font-size: 1.55vw;
 
                /* start of what you do section styling  */
                .steps{
-                text-align: center;
+                /* text-align: center;replaced by flexbox */
                 background: #fce138; 
                }
                
               .section-title {
                 font-size: 55px;
                 color: #024e76;
-                margin-bottom: 35px;
+                /* margin-bottom: 35px;
                 padding: 0 100px 20px 100px;
-                display: inline-block;
+                display: inline-block;replaced all by flexbox */
                 border-bottom: 3px solid;
+                text-align:center;
+                padding-bottom: 20px;
+                margin: 0 auto 35px auto;
+                width: 50%;
+
               }
-              
+              .flex-row{
+                display:flex;
+              }
               .primary-border {
                 border-color: #fce138;
               }
@@ -217,7 +223,7 @@ font-size: 1.55vw;
                 font-size: 38px;
               }
               .trainers {
-                text-align: center;
+                /* text-align: center;replaced by flexbox */
               }
               .trainer {
                 width: 900px;
@@ -260,7 +266,7 @@ font-size: 1.55vw;
                 line-height: 1.3;
               }
               .contact{
-                  text-align: center;
+                  /* text-align: center;replaced by flexbox */
                   background: #024e76;
 
               }
